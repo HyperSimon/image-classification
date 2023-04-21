@@ -1,11 +1,12 @@
 dataset:
-  train: ./datas/dogs-vs-cats/train
-  validate: ./datas/dogs-vs-cats/validate
-  test: ./datas/dogs-vs-cats/test
+  train: /kaggle/input/op-classification-datasets/op_classification/train
+  validate: /kaggle/input/op-classification-datasets/op_classification/validate
+  test: /kaggle/input/op-classification-datasets/op_classification/test
   class_to_idx: ./datas/class_to_idx.json
 
 parameters:
-  model_name: mobilenet
-  batch_size: 64
-  epoch_size: 20
+  model_name: op
+  batch_size: 12
+  epoch_size: 200
   learning_rate: 0.01
+ 
