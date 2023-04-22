@@ -5,8 +5,8 @@ dataset:
   class_to_idx: ./datas/class_to_idx.json
 
 parameters:
-  model_name: op
-  batch_size: 12
-  epoch_size: 200
-  learning_rate: 0.01
+  model_name: vgg
+  batch_size: 8
+  epoch_size: 2000
+  learning_rate: 0.002
  
